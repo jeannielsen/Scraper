@@ -13,7 +13,7 @@
 
 ###  Take aways
 
-* I was able to get the headline and url scrapped successfully, but was never able to get the summary to print.  Spent far to much time debugging this issue and ran out of time to write the handlebars html.
+* I was able to get the headline and url scrapped successfully, but was never able to get the summary to print.  Spent far to much time debugging this issue and ran out of time to write the handlebars html.  Also, had issues with the Heroku deployment.  It kept trying to deploy to an old app and several attempts at Stack Overflow suggestions did not help.
 
 
 
