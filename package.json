@@ -1,0 +1,31 @@
+{
+  "name": "scraper",
+  "version": "1.0.0",
+  "description": "* This assignment was to create an app that scrapes stories from a news outlet and displays them for the user.  Each scraped article should be saved in a database.  The app should scrape and display the headline, url, and a summary as a minimum.  Users should be able to leave comments on articles displayed and revisit them later.  All stored comments should be visible to every user.",
+  "main": "server.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "cheerio": "^1.0.0-rc.3",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "mongoose": "^5.5.3",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0",
+    "heroku": "^7.22.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeannielsen/Scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeannielsen/Scraper/issues"
+  },
+  "homepage": "https://github.com/jeannielsen/Scraper#readme"
+}
